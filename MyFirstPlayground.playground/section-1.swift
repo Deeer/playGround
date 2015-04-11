@@ -44,9 +44,9 @@ func addStudent(name:String , stu_age age:Int ,stu_num no:Int)
 addStudent("jack", stu_age: 10, stu_num: 20)
 //一旦定义了外部参数名，在调用函数时就必须加上外部参数名
 //使用#能简化函数的定义
-func sum(#num1 : Int , #num2 : Int)
+func sum( #num3 : Int , #num4 : Int) ->Int
 {
-    return num1 + num2
+    return num3 + num4
 }
 
 
