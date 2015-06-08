@@ -128,6 +128,32 @@ default:
 
 }
 
+let dddd:Double = 8;
+
+
+
+var optionalString :String? = nil // "hello"
+  optionalString == nil
+  
+var optionalName :String? =  "jone"
+var greeting = "hello"
+if let name = optionalName
+{
+    
+    greeting = "hellow,\(name)"
+    
+}
+
+
+
+
+
+
+
+
+
+
+
 
 
 
